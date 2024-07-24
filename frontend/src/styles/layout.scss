@@ -4,9 +4,6 @@
   background-color: #ffffff;
   height: 100%;
   position: fixed;
-  //display: flex;
-  //flex-direction: column;
-  //justify-content: space-between;
   border-right: 1px solid #ddd;
 }
 
@@ -49,13 +46,48 @@
   }
 }
 
+
+.nav-link:active {
+  background-color: #007bff;
+  color: white;
+
+}
+
+
+//.nav-item .svg:active{
+//  fill: white;
+//}
+
+
+
+//#sidebar > ul > li > a > svg > path:active {
+//  fill: white;
+//}
+
+
+
+//.nav-link svg path:active {
+//  fill: white;
+//}
+
+
+#sidebar .nav-link.active path {
+  fill: white
+}
+
+.logout{
+  color: #052C65;
+}
+
+.logout:hover {
+  color: white;
+}
+
 .dropdown {
-
-
   .dropdown:active {
     rotate: 45deg;
-
   }
+
   .dropdown-menu {
     width: 100%;
     border: 1px solid #007bff;
@@ -72,7 +104,6 @@
 }
 
 
-
 .balance {
   display: flex;
   justify-content: flex-start;
@@ -86,7 +117,7 @@
 .profile {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   border-top: 1px solid #ddd;
   svg {
     margin-right: 16px;

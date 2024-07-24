@@ -1,5 +1,0 @@
-export class IncomeExpenses {
-    constructor() {
-
-    }
-}
